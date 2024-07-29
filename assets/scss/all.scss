@@ -1,5 +1,28 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import "./helpers/var";
+@import "./base/reset";
+
+.navbar{
+    background-color: $p-color;
+    color: #ffffff;
+    padding: $padding-s;
+    a{
+        color: aqua;
+    }
+}
+
+.btn{
+    background-color: $p-color;
+    display: inline-block;
+    padding: $padding-s;
+}
+
+.btn:hover{
+    background-color: darken($p-color,10%);
+}
 
 
-@import './pages/index.scss';
+.footer{
+    background-color: $p-color;
+    color: #ffffff;
+    padding: $padding-s;
+}
